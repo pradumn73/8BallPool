@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!--
-        My device: Xiaomi Mi A1
-        My android version: 9
+        My device: Xiaomi Note 11
+        My android version: 11
 
         Use the Landscape mode
         In Landscape mode, the values X and Y are inverted
 
         Portrait:
         Device Width: X => 1080
-        Device Height: Y => 1920
+        Device Height: Y => 2400
 
         Landscape:
-        Device Width: X => 1920
+        Device Width: X => 2400
         Device Height: Y => 1080
 
         Find the dimensions of your device in MainActivity ( DEBUG )
@@ -23,12 +23,12 @@
     -->
 
     <!-- Board -->
-    <dimen name="boardWidth" tools:ignore="PxUsage">1620px</dimen> <!-- 84.375% of X -->
+    <dimen name="boardWidth" tools:ignore="PxUsage">2025px</dimen> <!-- 84.375% of X -->
     <dimen name="boardHeight" tools:ignore="PxUsage">897px</dimen> <!-- 83.055555555556% of Y -->
     <dimen name="boardMarginBottom" tools:ignore="PxUsage">0.0099px</dimen>
 
     <!-- Canvas -->
-    <dimen name="canvasWidth" tools:ignore="PxUsage">1458px</dimen> <!-- 90% of boardWidth -->
+    <dimen name="canvasWidth" tools:ignore="PxUsage">1822px</dimen> <!-- 90% of boardWidth -->
     <dimen name="canvasHeight" tools:ignore="PxUsage">731px</dimen> <!-- 81.49386845039% of boardHeight -->
     <dimen name="canvasMarginTop" tools:ignore="PxUsage">82px</dimen> <!-- 9.1415830546265% of boardHeight -->
 
